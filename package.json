@@ -1,0 +1,11 @@
+{
+  "name": "horizen-travels",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx concurrently -c \"#34d399,#f472b6\" -n \"flask,next\" \"start-flask.bat\" \"cd frontend && npm run dev\"",
+    "prod": "npx concurrently -c \"#34d399,#f472b6\" -n \"flask,next\" \"start-flask.bat\" \"cd frontend && npm run build && npm run start\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}

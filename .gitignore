@@ -1,0 +1,20 @@
+# Root-level ignores for whole project
+
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# Node (in case installed accidentally at root)
+node_modules/
+npm-debug.log*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Logs
+*.log
