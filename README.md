@@ -72,7 +72,7 @@ npm install
 From the project root directory, activate your Python environment (if not already activated) and run:
 
 ```bash
-python backend/app.py
+python backend/run.py
 ```
 
 Or on Windows, you can use the batch script:
