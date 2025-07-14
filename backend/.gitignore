@@ -55,7 +55,7 @@ __pypackages__/
 *.spec
 
 # Flask-related
-instance/
+# instance/
 *.log
 
 # VS Code
